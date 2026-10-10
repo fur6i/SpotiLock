@@ -19,7 +19,7 @@ a icona, purché il dispositivo sia disponibile per Spotify.
 
 ## Avvio
 
-1. Scarica **SpotifyVolumeLock.exe** e tienilo in una cartella dove puoi scrivere file.
+1. Scarica **SpotiLock.exe** e tienilo in una cartella dove puoi scrivere file.
 2. Apri Spotify e riproduci un brano su questo PC per renderlo disponibile.
 3. Apri **SpotiLock.exe**. Digita **1** per Italiano o **2** per English e premi **Invio**. Invio senza numero usa la lingua precedente.
 4. Al primo avvio parte automaticamente il collegamento dell'account. Dopo la configurazione si apre il pannello nella stessa finestra.
