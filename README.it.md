@@ -21,7 +21,7 @@ a icona, purché il dispositivo sia disponibile per Spotify.
 
 1. Scarica **SpotifyVolumeLock.exe** e tienilo in una cartella dove puoi scrivere file.
 2. Apri Spotify e riproduci un brano su questo PC per renderlo disponibile.
-3. Apri **SpotifyVolumeLock.exe**. Digita **1** per Italiano o **2** per English e premi **Invio**. Invio senza numero usa la lingua precedente.
+3. Apri **SpotiLock.exe**. Digita **1** per Italiano o **2** per English e premi **Invio**. Invio senza numero usa la lingua precedente.
 4. Al primo avvio parte automaticamente il collegamento dell'account. Dopo la configurazione si apre il pannello nella stessa finestra.
 5. Gli avvii successivi riutilizzano automaticamente Client ID, account e PC.
 
@@ -92,35 +92,13 @@ e avvia un brano qui. Il programma non avvia o trasferisce automaticamente la
 riproduzione. Se il comando non viene confermato entro circa 8–9 secondi, i tentativi
 si fermano: **V** o **+ / −** permettono di riprovare.
 
-## File locali e GitHub
-
-La cartella distribuita non contiene dati dell'account. Il programma crea questi
-file locali accanto all'eseguibile, esclusi da `.gitignore`:
-
-| File | Contenuto |
-|---|---|
-| `preferences.json` | Ultima lingua scelta. |
-| `client.json` | Client ID salvato prima dell'autorizzazione. |
-| `config.json` | Client ID e dispositivo scelto. |
-| `accesso.dat` | Credenziali cifrate con Windows DPAPI. |
-
-Le credenziali sono legate al tuo account Windows. Conserva questi file quando
-aggiorni il programma; ripeti il collegamento se cambi PC o account Windows.
-Per scollegare definitivamente il programma, revoca l'accesso dalle impostazioni
-del tuo account Spotify.
-
-Per GitHub carica codice e documentazione. Se usi il caricamento tramite sito,
-escludi manualmente i file locali: l'interfaccia web non applica `.gitignore`.
-Lo ZIP fornito contiene sorgenti, documentazione ed eseguibile, senza dati personali.
-Per pubblicarlo segui [la guida GitHub](GITHUB.md).
-
 ## Riga di comando
 
 ```text
-SpotifyVolumeLock.exe --lang it --volume 70 --fisso
-SpotifyVolumeLock.exe --lang en --volume 70 --fixed
-SpotifyVolumeLock.exe --lang it --configura
-SpotifyVolumeLock.exe --lang it --client-id NUOVO_CLIENT_ID
+SpotiLock.exe --lang it --volume 70 --fisso
+SpotiLock.exe --lang en --volume 70 --fixed
+SpotiLock.exe --lang it --configura
+SpotiLock.exe --lang it --client-id NUOVO_CLIENT_ID
 ```
 
 Senza `--lang` compare la scelta della lingua. Le opzioni principali hanno alias
@@ -136,7 +114,7 @@ python -m pip install -r requirements-build.txt
 python build.py
 ```
 
-Il risultato è `dist/SpotifyVolumeLock.exe`, da pubblicare come allegato di una Release GitHub. Il repository contiene i sorgenti; l'eseguibile include tutte le dipendenze necessarie. I dati personali non vengono inclusi nella compilazione.
+Il risultato è `dist/SpotiLock.exe`, da pubblicare come allegato di una Release GitHub. Il repository contiene i sorgenti; l'eseguibile include tutte le dipendenze necessarie. I dati personali non vengono inclusi nella compilazione.
 
 ## Sviluppo
 
