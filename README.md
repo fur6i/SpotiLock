@@ -19,7 +19,7 @@ when Spotify's window is minimized, provided the device is available to Spotify.
 
 ## Quick start
 
-1. Download **SpotifyVolumeLock.exe** and keep it in a writable folder.
+1. Download **SpotiLock.exe** and keep it in a writable folder.
 2. Open Spotify on this PC and play a track to make it available.
 3. Double-click **SpotiLock.exe**. Type **1** for Italiano or **2** for English and press **Enter**. Enter without a number keeps the previous language.
 4. On the first run, account setup starts automatically. Afterwards the control panel opens in the same window.
