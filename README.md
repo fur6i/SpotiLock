@@ -1,4 +1,4 @@
-# Spotify Volume Lock
+# SpotiLock
 
 <p align="center">
   <img src="assets/spotilock-logo.png" alt="SpotiLock logo" width="128">
