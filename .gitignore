@@ -1,0 +1,19 @@
+# Local account/device/language settings: never publish these.
+accesso.dat
+client.json
+config.json
+preferences.json
+diagnosi_spotify.json
+errore_spotify.json
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.log
+*.zip
+*.exe
+build/
+dist/
+*.spec
