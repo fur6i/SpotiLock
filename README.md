@@ -102,17 +102,6 @@ Omit `--lang` to show the language selector. Italian and English option aliases
 are supported. `--interval` / `--intervallo` changes the polling interval;
 values below 2 seconds are rejected.
 
-## Building the executable (developers only)
-
-Build on Windows with Python 3.10 or later:
-
-```text
-python -m pip install -r requirements-build.txt
-python build.py
-```
-
-The output is `dist/SpotiLock.exe`. Publish this file as a GitHub Release attachment. The repository contains sources; the executable includes all runtime dependencies. Personal settings are never bundled into the build.
-
 ## Development
 
 ```text
