@@ -105,17 +105,6 @@ Senza `--lang` compare la scelta della lingua. Le opzioni principali hanno alias
 italiani e inglesi. `--intervallo` / `--interval` cambia la frequenza delle letture;
 il minimo è 2 secondi.
 
-## Creare l'eseguibile (solo per sviluppatori)
-
-Su Windows, con Python 3.10 o successivo:
-
-```text
-python -m pip install -r requirements-build.txt
-python build.py
-```
-
-Il risultato è `dist/SpotiLock.exe`, da pubblicare come allegato di una Release GitHub. Il repository contiene i sorgenti; l'eseguibile include tutte le dipendenze necessarie. I dati personali non vengono inclusi nella compilazione.
-
 ## Sviluppo
 
 ```text
